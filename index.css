@@ -1,0 +1,101 @@
+body {
+    background-color: antiquewhite;
+  }
+.nav {
+    
+    display: flex;
+    align-items: center;
+
+
+  }
+
+
+
+#button1 {
+    width: 250px
+}
+
+#button2 {
+    width: 200px
+}
+
+#button3 {
+    width: 200px
+}
+#button4 {
+    width: 200px
+}
+#button5 {
+    width: 200px
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(254, 211, 255);
+    left: 5px;
+
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+}
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+
+}
+.container{
+    opacity: 1;
+    transition: 0.3s;
+    transform-origin: 50% 50%;
+    font-family: sans-serif;
+    font-size: larger;
+   
+}
+.container:hover {
+    transform: scale(90%);
+    cursor: pointer;
+    opacity: 0.85;
+    left: 100px;
+}
+
+#divvy {
+   width: 310px;
+}
+
+
+#catalogue {
+
+    top: 50%;
+    left:50%;
+}
+
+#gall {
+    
+    border: solid 10px seashell;
+    border-radius: 7px;
+    padding-bottom: 40px;
+    padding-top: 200px;
+    padding-left: 100px;
+    background-color: ghostwhite;
+    padding-right: 100px;
+    float: left;
+    width: 100px;
+    right: 900;
+    top: 200;
+    position: absolute;
+
+
+}
+div.gall:hover {
+    border: 1px solid #777;
+  }
+
+#zoe {
+width: 90%;
+  }
